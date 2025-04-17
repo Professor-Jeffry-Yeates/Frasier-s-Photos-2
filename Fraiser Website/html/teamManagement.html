@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Management - Frazier's Photos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/team.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <h1><a href="index.html" title="Home">Frazier's Photos</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="inventory.html" class="active">Inventory</a></li>
+                <li><a href="sales.html" class="active">Sales</a></li>
+                <li><a href="customerManagement.html" class="active">Customers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="team-section">
+            <div class="container">
+                <div class="team-header">
+                    <h2>Team Management</h2>
+                    <button class="add-team-btn" type="button" onclick="openAddTeamMemberModal()">
+                        <i class="fas fa-plus"></i> Add Team Member</button>
+                    <button class="save-to-json-btn" type="button" onclick="saveTeamMembersToJson()">
+                         Save to JSON</button>
+                    <button class="load-from-json-btn" type="button" onclick="loadTeamMembersFromJson()">
+                        Load from JSON</button>
+                    <button class="place-into-memory-btn" type="button" onclick="placeTeamMembersIntoMemory()">
+                        Place into Memory</button>
+
+                </div>
+
+                <table class="team-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Status</th>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Nickname</th>
+                            <th>email</th>
+                            <th>Image</th>
+                            <th></th>
+                            <th>Actions</br><i class="small-text">(edit-discontinue-hide)</i></th>
+                        </tr>
+                    </thead>
+                    <tbody id="team-table-body">
+                        <!-- Team Members items will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add/Edit Team Modal -->
+    <div id="teamModal" class="modal" >
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeTeamModal()">&times;</span>
+            <h3 id="modalTitle">Add Team Member</h3>
+            <form id="teamForm" onsubmit="handleTeamMemberSubmit(event)">
+                <div class="form-group">
+                    <label for="memberId">Team Member ID</label>
+                    <input type="text" id="memberId" required>
+                    <label for="memberName">Full Name</label>
+                    <input type="text" id="memberName" required>
+                    <label for="memberDescription">Description</label>
+                    <textarea id="memberDescription" required></textarea>
+                    <label for="memberNickname">Nickname</label>
+                    <input type="text" id="memberNickname" required>
+                    <label for="memberImage">Photo's Name (assume .jpg)</label>
+                    <input type="text" id="memberImage" required>
+                </div>
+                <div class="form-group">
+                    <label for="teamPosition">Position</label>
+                    <select id="teamPosition" required>
+                        <option value="Manager">Manager</option>
+                        <option value="Supevisor">Supevisor</option>
+                        <option value="Team Leader">Team Leader</option>
+                        <option value="Programmer">Programmer</option>
+                        <option value="Minion">Minion</option>
+                        <option value="Consultant">Consultant</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="memberStreet1">Street</label>
+                    <input type="text" id="memberStreet1" required>
+                    <label for="memberStreet2">Secondary Street</label>
+                    <input type="text" id="memberStreet2" >
+                    <label for="memberCity">City</label>
+                    <input type="text" id="memberCity" required>
+                    <label for="memberState">State</label>
+                    <input type="text" id="memberState" required>
+                    <label for="memberZipcode">Zip Code</label>
+                    <input type="text" id="memberZipcode" required>
+                </div>
+                <div class="form-group">
+                    <label for="memberEmail">Email</label>
+                    <input type="text" id="memberEmail" required>
+                    <label for="memberPhone">Phone</label>
+                    <input type="text" id="memberPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="memberVisible">Visible to Customers</label>
+                    <select id="memberVisible" required>
+                        <option value=true>Visible</option>
+                        <option value=false>Hidden</option>
+                    </select>
+                    <label for="memberEmployed">Employment Status</label>
+                    <select id="memberEmployed" required>
+                        <option value=true>Employed</option>
+                        <option value=false>Discharged</option>
+                    </select>
+                </div>
+                <span>
+                    <button type="submit" class="add-team-btn">Save Team Member</button>
+                    <button type="button" class="cancel-btn" onclick="closeTeamModal()">Cancel</button>
+                </span>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h2>Team Management</h2>
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="seasons.html">Seasonal Team</a></li>
+                    <li><a href="holidays.html">Holiday Team</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                </ul>
+                </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="copyright">&copy; 2024 Frazier's Photos. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/teamManagement.js"></script>
+</body>
+</html> 

@@ -1,0 +1,112 @@
+{
+    "customers": [
+    {
+        "id": "CUS001",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "address": {
+            "street": "123 Main St",
+            "street2": "",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        },
+        "phone": "408-555-1234",
+        "loyaltyPoints": 100,
+        "preferences": {
+            "newsletter": true,
+            "smsAlerts": false
+        }
+    },
+    {
+        "id": "CUS002",
+        "name": "Jane Smith",
+        "mail": "jane@example.com",
+        "address": {
+            "street": "456 Elm St",
+            "street2": "Apt 2B",
+            "city": "Othertown",
+            "state": "NY",
+            "zip": "67890"
+        },
+        "phone": "678-555-5678",
+        "loyaltyPoints": 200,
+        "preferences": {
+            "newsletter": false,
+            "smsAlerts": true
+        }
+    },
+    {
+        "id": "CUS003",
+        "name": "Robert Johnson",
+        "email": "robert@example.com",
+        "address": {
+            "street": "789 Oak St",
+            "street2": "",
+            "city": "Sometown",
+            "state": "TX",
+            "zip": "54321"
+        },
+        "phone": "543-555-9012",
+        "loyaltyPoints": 150,
+        "preferences": {
+            "newsletter": true,
+            "smsAlerts": false
+        }
+    },
+    {
+        "id": "CUS004",
+        "name": "Emily Davis",
+        "email": "emily@example.com",
+        "address": {
+            "street": "321 Pine St",
+            "street2": "",
+            "city": "Newcity",
+            "state": "FL",
+            "zip": "98765"
+        },
+        "phone": "987-555-3456",
+        "loyaltyPoints": 250,
+        "preferences": {
+            "newsletter": false,
+            "smsAlerts": true
+        }
+    },
+    {
+        "id": "CUS005",
+        "name": "Michael Wilson",
+        "email": "michael@example.com",
+        "address": {
+            "street": "654 Maple St",
+            "street2": "",
+            "city": "Oldtown",
+            "state": "WA",
+            "zip": "13579"
+        },
+        "phone": "135-555-7890",
+        "loyaltyPoints": 300,
+        "preferences": {
+            "newsletter": true,
+            "smsAlerts": false
+        }
+    },
+    {
+        "id": "CUS006",
+        "name": "Sarah Brown",
+        "email": "sarah@example.com",
+        "address": {
+            "street": "987 Birch St",
+            "street2": "",
+            "city": "Yourtown",
+            "state": "IL",
+            "zip": "24680"
+        },
+        "phone": "246-555-2345",
+        "loyaltyPoints": 50,
+        "preferences": {
+            "newsletter": false,
+            "smsAlerts": true
+        }
+    }
+]
+}

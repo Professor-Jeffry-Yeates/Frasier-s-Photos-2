@@ -1,0 +1,79 @@
+{
+    "team": [
+    {
+        "id": "553386",
+        "name": "Grace Smith",
+        "email": "gracesmith@students.ccu.edu",
+        "address": {
+            "street": "123 Main St",
+            "street2": "",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        },
+        "phone": "720-448-3773",
+        "image": "gracesmith.jpg",
+        "nickname": "The Boss"
+    },
+    {
+        "id": "575059",
+        "name": "Daniel Van Kooten",
+        "mail": "dvankooten@students.ccu.edu",
+        "address": {
+            "street": "456 Elm St",
+            "street2": "Apt 2B",
+            "city": "Othertown",
+            "state": "NY",
+            "zip": "67890"
+        },
+        "phone": "720-793-4489",
+        "image": "danielvankooten.jpg",
+        "nickname": "The Brains"
+    },
+    {
+        "id": "277405",
+        "name": "Stephen Bosworth",
+        "email": "sbosworth18@students.ccu.edu",
+        "address": {
+            "street": "789 Oak St",
+            "street2": "",
+            "city": "Sometown",
+            "state": "TX",
+            "zip": "54321"
+        },
+        "phone": "303-304-3960",
+        "image": "stevebosworth.jpg",
+        "nickname": "Stev'O'"
+    },
+    {
+        "id": "604147",
+        "name": "Devvan Bagley",
+        "email": "dbagley@students.ccu.edu",
+        "address": {
+            "street": "321 Pine St",
+            "street2": "",
+            "city": "Newcity",
+            "state": "FL",
+            "zip": "98765"
+        },
+        "phone": "720-499-9193",
+        "image": "devanbagley.jpg",
+        "nickname": "The Mind"
+    },
+    {
+        "id": "123456",
+        "name": "Prof. Yeates",
+        "email": "jeyeates@ccu.edu",
+        "address": {
+            "street": "8787 W, Alameda Ave",
+            "street2": "",
+            "city": "Lakewood",
+            "state": "CO",
+            "zip": "80226"
+        },
+        "phone": "135-555-7890",
+        "image": "jeffyeates.jpg",
+        "nickname": "Prof. Yeates"
+    }
+]
+}

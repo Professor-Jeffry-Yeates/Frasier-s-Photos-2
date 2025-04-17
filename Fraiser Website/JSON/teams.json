@@ -1,0 +1,99 @@
+{
+    "teams": [
+    {
+        "id": "553386",
+        "position": "Manager",
+        "description": "The Team Leader is responsible for overseeing the entire project, ensuring that all team members are on track and that the project is progressing as planned.",
+        "name": "Grace Smith",
+        "email": "gracesmith@students.ccu.edu",
+        "address": {
+            "street1": "123 Main St",
+            "street2": "",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        },
+        "phone": "720-448-3773",
+        "image": "gracesmith.jpg",
+        "nickname": "The Boss",
+        "visible": true,
+        "employed": true
+    },
+    {
+        "id": "575059",
+        "position": "Lead",
+        "description": "The Team Member is responsible for contributing to the project by completing assigned tasks and collaborating with other team members.",
+        "name": "Daniel Van Kooten",
+        "email": "dvankooten@students.ccu.edu",
+        "address": {
+            "street1": "456 Elm St",
+            "street2": "Apt 2B",
+            "city": "Othertown",
+            "state": "NY",
+            "zip": "67890"
+        },
+        "phone": "720-793-4489",
+        "image": "danielvankooten.jpg",
+        "nickname": "The Brains",
+        "visible": true,
+        "employed": true
+    },
+    {
+        "id": "277405",
+        "position": "Supervisor",
+        "description": "The Team Member is responsible for contributing to the project by completing assigned tasks and collaborating with other team members.",
+        "name": "Stephen Bosworth",
+        "email": "sbosworth18@students.ccu.edu",
+        "address": {
+            "street1": "789 Oak St",
+            "street2": "",
+            "city": "Sometown",
+            "state": "TX",
+            "zip": "54321"
+        },
+        "phone": "303-304-3960",
+        "image": "stevebosworth.jpg",
+        "nickname": "Stev'O",
+        "visible": true,
+        "employed": true
+    },
+    {
+        "id": "604147",
+        "name": "Devan Bagley",
+        "position": "Minion",
+        "description": "The Team Member is responsible for contributing to the project by completing assigned tasks and collaborating with other team members.",
+        "email": "dbagley@students.ccu.edu",
+        "address": {
+            "street1": "321 Pine St",
+            "street2": "",
+            "city": "Newcity",
+            "state": "FL",
+            "zip": "98765"
+        },
+        "phone": "720-499-9193",
+        "image": "devanbagley.jpg",
+        "nickname": "The Mind",
+        "visible": true,
+        "employed": true
+    },
+    {
+        "id": "123456",
+        "position": "Consultant",
+        "description": "The Consultant is responsible for providing expert advice and guidance to the team, helping to ensure that the project is successful.",
+        "name": "Prof. Yeates",
+        "email": "jeyeates@ccu.edu",
+        "address": {
+            "street1": "8787 W, Alameda Ave",
+            "street2": "",
+            "city": "Lakewood",
+            "state": "CO",
+            "zip": "80226"
+        },
+        "phone": "135-555-7890",
+        "image": "photo1.png",
+        "nickname": "Prof. Yeates",
+        "visible": true,
+        "employed": true
+    }
+]
+}
